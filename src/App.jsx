@@ -7,12 +7,14 @@ import About from './components/About/About'
 import Skills from './components/Skills/Skills'
 import Project from './components/Project/Project'
 import Contact from './components/contact/contact'
+import PointerCircle from './components/Pointer/PointerCircle'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <PointerCircle />
       <Hero />
       <About />
       <Skills />
