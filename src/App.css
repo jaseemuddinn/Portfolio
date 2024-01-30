@@ -41,16 +41,3 @@
   color: #888;
 } */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr); /* Adjust number of columns as needed */
-  grid-template-rows: repeat(10, 1fr); /* Adjust number of rows as needed */
-  gap: 1px; /* Adjust gap between grid cells as needed */
-  border: 1px solid black; /* Border for the grid */
-}
-.grid-item {
-  background-color: white; /* Background color of grid cells */
-  border: 1px solid black; /* Border for grid cells */
-  text-align: center; /* Center text within grid cells */
-  padding: 10px; /* Adjust padding within grid cells as needed */
-}

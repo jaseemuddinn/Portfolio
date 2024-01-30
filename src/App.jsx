@@ -1,23 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
-import Project from './components/Project/Project'
 import Contact from './components/contact/contact'
 import PointerCircle from './components/Pointer/PointerCircle'
+import Project from './components/Project/Project'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <PointerCircle />
       <Hero />
       <About />
-      <Skills />
+      {/* <Skills /> */}
       <Project />
       <Contact />
     </>

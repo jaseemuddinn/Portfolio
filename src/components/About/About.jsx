@@ -4,7 +4,7 @@ function About() {
 
     return (
         <div>
-            <section className="grid-container flex items-center pb-10 xl:h-screen bg-[#413E40] ">
+            <div className="grid-container flex items-center pb-10 xl:h-screen bg-[#413E40] ">
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:pb-6 md:px-6">
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
@@ -28,13 +28,13 @@ function About() {
                                 </h1>
                             </div>
                             <p className="mt-6 mb-10 text-base leading-7 text-gray-200">
-                            I'm your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. By day (and often by night), I'm busy painting the Internet canvas with projects and lines of code. My mission? To turn zeroes and ones into immersive, interactive experiences that captivate users and bring digital visions to life.
+                                I'm your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. By day (and often by night), I'm busy painting the Internet canvas with projects and lines of code. My mission? To turn zeroes and ones into immersive, interactive experiences that captivate users and bring digital visions to life.
                             </p>
 
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     )
 }
