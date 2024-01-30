@@ -1,0 +1,15 @@
+@keyframes moveProjects {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.projects-animation {
+    animation: moveProjects 7s ease-in infinite;
+}
