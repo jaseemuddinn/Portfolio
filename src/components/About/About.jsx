@@ -1,4 +1,5 @@
 import about from '../../assets/jaseem.png'
+import about1 from '../../assets/pic.jpg'
 
 function About() {
 
@@ -9,8 +10,8 @@ function About() {
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             <div className="relative">
-                                <img src="#" alt=""
-                                    className="relative z-40 object-cover w-full h-96 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
+                                <img src={about1} alt=""
+                                    className="relative object-top z-40 object-cover w-full h-96 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
                                 <div
                                     className="absolute z-10 hidden w-full h-full bg-[#272526] rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
 
