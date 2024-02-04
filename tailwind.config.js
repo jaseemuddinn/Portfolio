@@ -6,8 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
-    fontFamily:{
+    fontFamily: {
       'sans': ["Montserrat", 'sans-serif'],
+    },
+    boxShadow: {
+      '3xl': '0 90px 90px -90px rgba(0, 0, 0, 0.4)',
     }
   },
   plugins: [],
