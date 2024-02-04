@@ -2,7 +2,7 @@ import './App.css'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 // import Skills from './components/Skills/Skills'
-import Contact from './components/contact/contact'
+import Contact from './components/Contact/Contact'
 import PointerCircle from './components/Pointer/PointerCircle'
 import Project from './components/Project/Project'
 
