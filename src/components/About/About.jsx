@@ -14,7 +14,6 @@ function About() {
                                     className="relative object-top z-40 object-cover w-full h-96 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
                                 <div
                                     className="absolute z-10 hidden w-full h-full bg-[#272526] rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
-
                                 </div>
                             </div>
                         </div>

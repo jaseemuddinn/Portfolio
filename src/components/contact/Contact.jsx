@@ -1,7 +1,7 @@
 import mailIcon from '../../assets/mail.svg'
 import hoverMailIcon from '../../assets/afterMail.svg'
 import { useState } from 'react'
-function Contact() {
+export function Contact() {
 
     const [isHovered, setIsHovered] = useState(false);
     return (
@@ -28,4 +28,4 @@ function Contact() {
     )
 }
 
-export default Contact
+// export default Contact
