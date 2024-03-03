@@ -1,6 +1,9 @@
 import React from 'react'
+import mailIcon from '../../assets/mail.svg'
+import hoverMailIcon from '../../assets/afterMail.svg'
 
 function Info() {
+    const [isHovered, setIsHovered] = React.useState(false);
     return (
         <div className='bg-[#413E40]'>
             <div>
@@ -8,7 +11,13 @@ function Info() {
                     Want to talk? <span className='text-gray-200 text-lg font-normal'>About any project</span>
                 </h1>
                 <div className='py-5 felx justify-center items-center'>
-                    <a href="mailto:njaseemudin@gmail.com" className='flex justify-center items-center hover:italic'>
+                    <a href="mailto:njaseemudin@gmail.com" className='flex justify-center items-center hover:italic' onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => setIsHovered(false)}>
+                        {isHovered ? (
+                            <img className='p-2 transition duration-300 ease-in-out transform' src={hoverMailIcon} alt="mailIcon" />
+                        ) : (
+                            <img className='p-2 transition duration-300 ease-in-out transform' src={mailIcon} alt="mailIcon" />
+                        )}
                         <p className='text-white'>
                             Just E-mail
                         </p>
