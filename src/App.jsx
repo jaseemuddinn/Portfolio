@@ -5,6 +5,9 @@ import About from './components/About/About'
 import PointerCircle from './components/Pointer/PointerCircle'
 import Project from './components/Project/Project'
 import { Contact } from './components/Contact/Contact'
+import Info from './components/Info/Info'
+
+// import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -14,7 +17,8 @@ function App() {
       <About />
       {/* <Skills /> */}
       <Project />
-      <Contact />
+      <Info />
+      {/* <Contact /> */}
     </>
   )
 }
