@@ -4,7 +4,7 @@ import About from './components/About/About'
 // import Skills from './components/Skills/Skills'
 import PointerCircle from './components/Pointer/PointerCircle'
 import Project from './components/Project/Project'
-import { Contact } from './components/Contact/Contact'
+// import { Contact } from './components/Contact/Contact'
 import Info from './components/Info/Info'
 
 // import Contact from './components/Contact/Contact';
