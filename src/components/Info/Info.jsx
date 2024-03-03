@@ -1,7 +1,8 @@
 import React from 'react'
 import mailIcon from '../../assets/mail.svg'
 import hoverMailIcon from '../../assets/afterMail.svg'
-
+import linkedinIcon from '../../assets/linkedin-logo.png'
+import githubIcon from '../../assets/github-logo.png'
 function Info() {
     const [isHovered, setIsHovered] = React.useState(false);
     return (
@@ -22,7 +23,17 @@ function Info() {
                             Just E-mail
                         </p>
                     </a>
+                    <div className='flex items-center justify-center gap-5 mt-10'>
+                        <p className='text-white text-lg md:text-3xl font-light'>For More Info: </p>
+                        <a target='_blank' href="https://linkedin.com/in/jaseemuddin">
+                            <img src={linkedinIcon} alt="linkedin" style={{ width: "32px" }} />
+                        </a>
+                        <a target='_blank' href="https://github.com/jaseemuddinn">
+                            <img src={githubIcon} alt="linkedin" />
+                        </a>
+                    </div>
                 </div>
+
             </div>
         </div>
     )
