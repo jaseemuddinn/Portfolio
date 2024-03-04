@@ -12,7 +12,7 @@ function Info() {
                     Want to talk? <span className='text-gray-200 text-lg font-normal'>About any project</span>
                 </h1>
                 <div className='py-5 felx justify-center items-center'>
-                    <a href="mailto:njaseemudin@gmail.com" className='flex justify-center items-center hover:italic' onMouseEnter={() => setIsHovered(true)}
+                    <a href="mailto:njaseemuddin@gmail.com" className='flex justify-center items-center hover:italic' onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}>
                         {isHovered ? (
                             <img className='p-2 transition duration-300 ease-in-out transform' src={hoverMailIcon} alt="mailIcon" />
