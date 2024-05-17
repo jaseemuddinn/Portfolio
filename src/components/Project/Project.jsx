@@ -27,10 +27,10 @@ function Project() {
           target="_blank"
         />
         <Link
-          heading="OnnOff"
-          subheading="Wordpress"
-          imgSrc={onnoff}
-          href="https://onnoff.in/"
+          heading="SocialHub"
+          subheading="React + Vite + Tailwind"
+          imgSrc={socialHub}
+          href="https://social-hub.app/"
           target="_blank"
         />
         <Link
@@ -62,10 +62,10 @@ function Project() {
           target="_blank"
         />
         <Link
-          heading="SocialHub"
-          subheading="React + Vite + Tailwind"
-          imgSrc={socialHub}
-          href="https://social-hub.app/"
+          heading="OnnOff"
+          subheading="Wordpress"
+          imgSrc={onnoff}
+          href="https://onnoff.in/"
           target="_blank"
         />
         <Link
