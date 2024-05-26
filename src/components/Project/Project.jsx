@@ -27,6 +27,13 @@ function Project() {
           target="_blank"
         />
         <Link
+          heading="OnnOff"
+          subheading="React + Tailwind"
+          imgSrc={onnoff}
+          href="https://onnoff.in/"
+          target="_blank"
+        />
+        <Link
           heading="SocialHub"
           subheading="React + Vite + Tailwind"
           imgSrc={socialHub}
@@ -59,13 +66,6 @@ function Project() {
           subheading="React + Tailwind"
           imgSrc={shoeStore}
           href="https://shoe-store-ui.vercel.app/"
-          target="_blank"
-        />
-        <Link
-          heading="OnnOff"
-          subheading="Wordpress"
-          imgSrc={onnoff}
-          href="https://onnoff.in/"
           target="_blank"
         />
         <Link
