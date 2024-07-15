@@ -3,7 +3,7 @@ import hoverMailIcon from '../../assets/afterMail.svg'
 import { useState } from 'react'
 export function Contact() {
 
-    const [isHovered, setIsHovered] = useState(false);
+const [isHovered, setIsHovered] = useState(false);
     return (
         <div className='bg-[#413E40]'>
             <div>

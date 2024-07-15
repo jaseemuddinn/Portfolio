@@ -7,6 +7,8 @@ import shoeStore from "../../assets/ProjectsImg/shoeStore.png";
 import socialHub from "../../assets/ProjectsImg/socialHub.png";
 import Techlab from "../../assets/ProjectsImg/Techlab.png";
 import ProjectHeading from "../Heading/ProjectHeading";
+import irada from "../../assets/ProjectsImg/irada.png";
+import iradaRevamp from "../../assets/ProjectsImg/irada_revamped.png";
 
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
@@ -28,7 +30,7 @@ function Project() {
         />
         <Link
           heading="OnnOff"
-          subheading="React + Tailwind"
+          subheading="React + Tailwind + Framer Motion"
           imgSrc={onnoff}
           href="https://onnoff.in/"
           target="_blank"
@@ -38,6 +40,20 @@ function Project() {
           subheading="React + Vite + Tailwind"
           imgSrc={socialHub}
           href="https://social-hub.app/"
+          target="_blank"
+        />
+        <Link
+          heading="Irada"
+          subheading="React + Tailwind"
+          imgSrc={irada}
+          href="https://irada.vercel.app/"
+          target="_blank"
+        />
+        <Link
+          heading="Irada Revamped"
+          subheading="React + Tailwind + Framer Motion"
+          imgSrc={iradaRevamp}
+          href="https://irada-revamped.vercel.app/"
           target="_blank"
         />
         <Link
