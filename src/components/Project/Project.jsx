@@ -51,7 +51,7 @@ function Project() {
         />
         <Link
           heading="Irada Revamped"
-          subheading="React + Tailwind + Framer Motion"
+          subheading="React + Tailwind + Framer Motion + Spline"
           imgSrc={iradaRevamp}
           href="https://irada-revamped.vercel.app/"
           target="_blank"
