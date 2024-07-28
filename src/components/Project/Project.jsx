@@ -9,6 +9,7 @@ import Techlab from "../../assets/ProjectsImg/Techlab.png";
 import ProjectHeading from "../Heading/ProjectHeading";
 import irada from "../../assets/ProjectsImg/irada.png";
 import iradaRevamp from "../../assets/ProjectsImg/irada_revamped.png";
+import theace from "../../assets/ProjectsImg/theace.png";
 
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
@@ -33,6 +34,13 @@ function Project() {
           subheading="React + Tailwind + Framer Motion"
           imgSrc={onnoff}
           href="https://onnoff.in/"
+          target="_blank"
+        />
+        <Link
+          heading="The Ace"
+          subheading="React + Three + Tailwind + Framer Motion"
+          imgSrc={theace}
+          href="https://theace.tech/"
           target="_blank"
         />
         <Link
