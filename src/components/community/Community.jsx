@@ -41,9 +41,7 @@ export function Community() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Tookover the GDSC WoW community and made it the largest student led community in India.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Our team has captured some beautiful moments from the events. Here are some more examples of photos they took.
-          </p>
+          
           <div className="grid grid-cols-2 gap-4">
             <Img img={img5} />
             <Img img={img6} />
@@ -61,7 +59,7 @@ export function Community() {
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
             Became the GDSC Lead at my campus
           </p>
-          <div className="mb-8">
+          <div className="mb-8 invisible">
             {/* <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               ✅ Card grid component
             </div>
