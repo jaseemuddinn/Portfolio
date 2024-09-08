@@ -5,7 +5,7 @@ export function Contact() {
 
 const [isHovered, setIsHovered] = useState(false);
     return (
-        <div className='bg-[#413E40]'>
+        <div className='bg-zinc-950'>
             <div>
                 <h1 className='text-white pt-10 font-bold text-center text-2xl md:text-5xl lg:text-7xl'>Want To Talk?<span className='text-gray-200 text-lg font-normal'>About any project</span></h1>
                 <div className='py-5 flex justify-center items-center'>

@@ -6,7 +6,7 @@ import githubIcon from '../../assets/github-logo.png'
 function Info() {
     const [isHovered, setIsHovered] = React.useState(false);
     return (
-        <div className='bg-[#413E40]'>
+        <div className='bg-zinc-950'>
             <div>
                 <h1 className='text-white pt-10 font-bold text-center text-2xl md:text-5xl lg:text-7xl'>
                     Want to talk? <span className='text-gray-200 text-lg font-normal'>About any project</span>
@@ -24,7 +24,7 @@ function Info() {
                         </p>
                     </a>
                     <div className='flex items-center justify-center gap-5 mt-10'>
-                        <p className='text-white text-lg md:text-3xl font-light'>For More Info: </p>
+                        {/* <p className='text-white text-lg md:text-3xl font-light'>For More Info: </p> */}
                         <a target='_blank' href="https://linkedin.com/in/jaseemuddin">
                             <img src={linkedinIcon} alt="linkedin" style={{ width: "32px" }} />
                         </a>

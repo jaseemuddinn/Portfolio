@@ -1,15 +1,15 @@
-import customiseOnnoff from "../../assets/ProjectsImg/customiseOnnoff.png";
-import di from "../../assets/ProjectsImg/di.png";
-import ggvra from "../../assets/ProjectsImg/ggvra.png";
-import movieSite from "../../assets/ProjectsImg/movieSite.png";
-import onnoff from "../../assets/ProjectsImg/onnoff.png";
-import shoeStore from "../../assets/ProjectsImg/shoeStore.png";
-import socialHub from "../../assets/ProjectsImg/socialHub.png";
-import Techlab from "../../assets/ProjectsImg/Techlab.png";
+import customiseOnnoff from "../../assets/ProjectsImg/customiseOnnoff.webp";
+import di from "../../assets/ProjectsImg/di.webp";
+import ggvra from "../../assets/ProjectsImg/ggvra.webp";
+import movieSite from "../../assets/ProjectsImg/movieSite.webp";
+import onnoff from "../../assets/ProjectsImg/onnoff.webp";
+import shoeStore from "../../assets/ProjectsImg/shoeStore.webp";
+import socialHub from "../../assets/ProjectsImg/socialHub.webp";
+import Techlab from "../../assets/ProjectsImg/Techlab.webp";
 import ProjectHeading from "../Heading/ProjectHeading";
-import irada from "../../assets/ProjectsImg/irada.png";
-import iradaRevamp from "../../assets/ProjectsImg/irada_revamped.png";
-import theace from "../../assets/ProjectsImg/theace.png";
+import irada from "../../assets/ProjectsImg/irada.webp";
+import iradaRevamp from "../../assets/ProjectsImg/irada_revamped.webp";
+import theace from "../../assets/ProjectsImg/theace.webp";
 
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
@@ -17,7 +17,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 function Project() {
   return (
-    <section className="bg-[#413e40] p-4 md:p-8">
+    <section className="bg-zinc-950 p-4 md:p-8">
       <h1>
         <ProjectHeading />
       </h1>
