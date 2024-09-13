@@ -4,10 +4,10 @@ function About() {
 
     return (
         <div>
-            <div className="grid-container flex items-center pb-10 xl:h-screen bg-zinc-950">
+            <div className="grid-container flex items-center pb-10 xl:h-scree bg-zinc-950">
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:pb-6 md:px-6">
                     <div className="flex flex-wrap ">
-                        <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+                        {/* <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             <div className="relative">
                                 <img src={about1} alt=""
                                     className="relative object-top z-40 object-cover w-full h-96 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
@@ -15,8 +15,8 @@ function About() {
                                     className="absolute z-10 hidden w-full h-full bg-[#272526] rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
                                 </div>
                             </div>
-                        </div>
-                        <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
+                        </div> */}
+                        <div className="w-full px-4 mb-10 lg:w-1/ lg:mb-0 ">
                             <div className="relative">
                                 <h1
                                     className="absolute -top-20   left-0 text-[20px] lg:text-[100px] font-bold  text-gray-200 opacity-5 md:block hidden">
