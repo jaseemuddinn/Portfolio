@@ -1,6 +1,4 @@
-import about from '../../assets/jaseem.png'
-import about1 from '../../assets/pic.jpg'
-import img1 from '../../assets/img1.JPG'
+import about1 from '../../assets/pic.webp'
 
 function About() {
 

@@ -9,13 +9,11 @@ import { SiSpacex } from "react-icons/si";
 import { FiArrowRight, FiMapPin } from "react-icons/fi";
 import { useRef } from "react";
 import logo from "./logo.png";
-import heroimg from "../../assets/heroimg.png";
-import heroimg1 from "../../assets/3.png";
 // import heroimg1 from "../../assets/showcase1.jpeg";
 import showcase from "../../assets/showcase.webp"
 import showcase1 from '../../assets/showcase1.webp'
-import showcase2 from '../../assets/stageee.jpg'
-import showcase3 from '../../assets/img14.JPG'
+import showcase2 from '../../assets/stageee.webp'
+import showcase3 from '../../assets/img14.webp'
 
 export const SmoothScrollHero = () => {
   return (
@@ -128,8 +126,8 @@ const ParallaxImages = () => {
         start={-200}
         end={200}
         className="ml-auto w-1/3"
-      />
-      <ParallaxImg
+      /> */}
+      {/* <ParallaxImg
         src={showcase1}
         alt="Orbiting satellite"
         start={0}
