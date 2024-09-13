@@ -26,7 +26,7 @@ export function Community() {
             Founded and Building THE ACE from scratch
           </p>
           <div className="grid grid-cols-2 gap-4">
-            <Img img={img3} />
+            <a href="https://www.commudle.com/communities/the-ace" target="_blank"><Img img={img3} /></a>
             <Img img={img1} />
             <Img img={img2} />
             <Img img={img4} />
@@ -43,7 +43,7 @@ export function Community() {
           </p>
           
           <div className="grid grid-cols-2 gap-4">
-            <Img img={img5} />
+            <a href="https://www.commudle.com/communities/gdsc-wow-delhi-ncr" target="_blank"><Img img={img5} /></a>
             <Img img={img6} />
             <Img img={img12} />
             <Img img={img13} />

@@ -14,6 +14,8 @@ import heroimg1 from "../../assets/3.png";
 // import heroimg1 from "../../assets/showcase1.jpeg";
 import showcase from "../../assets/showcase.webp"
 import showcase1 from '../../assets/showcase1.webp'
+import showcase2 from '../../assets/stageee.jpg'
+import showcase3 from '../../assets/img14.JPG'
 
 export const SmoothScrollHero = () => {
   return (
@@ -95,7 +97,7 @@ const CenterImage = () => {
         clipPath,
         backgroundSize,
         opacity,
-        backgroundImage: `url(${heroimg1})`,
+        backgroundImage: `url(${showcase2})`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
@@ -107,7 +109,7 @@ const ParallaxImages = () => {
   return (
     <div className="mx-auto max-w-5xl px-4 pt-[200px]">
       <ParallaxImg
-        src={showcase}
+        src={showcase3}
         alt="And example of a space launch"
         start={-200}
         end={200}
@@ -120,7 +122,7 @@ const ParallaxImages = () => {
         end={-250}
         className="mx-auto w-2/3"
       />
-      <ParallaxImg
+      {/* <ParallaxImg
         src={showcase}
         alt="Orbiting satellite"
         start={-200}
@@ -133,7 +135,7 @@ const ParallaxImages = () => {
         start={0}
         end={-500}
         className="ml-24 w-5/12"
-      />
+      /> */}
     </div>
   );
 };

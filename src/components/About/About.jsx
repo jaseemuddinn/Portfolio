@@ -1,5 +1,6 @@
 import about from '../../assets/jaseem.png'
 import about1 from '../../assets/pic.jpg'
+import img1 from '../../assets/img1.JPG'
 
 function About() {
 
@@ -28,7 +29,7 @@ function About() {
                                 </h1>
                             </div>
                             <p className="mt-6 mb-10 text-base leading-7 text-gray-200">
-                            I'm your friendly neighborhood web developer, UX architect, and community builder. By day (and often by night), I'm busy painting the Internet canvas with projects and lines of code. My mission? To turn zeroes and ones into immersive, interactive experiences that captivate users and bring digital visions to life. Beyond code, I thrive on making community that create space for collaboration, where developers and creators can network, learn, and spark new ideas that shape the future.
+                            I'm Jaseem, your friendly neighborhood web developer, UX architect, and community builder. By day (and often by night), I'm busy painting the Internet canvas with projects and lines of code. My mission? To turn zeroes and ones into immersive, interactive experiences that captivate users and bring digital visions to life. Beyond code, I thrive on making community that create space for collaboration, where developers and creators can network, learn, and spark new ideas that shape the future.
                             </p>
 
                         </div>
