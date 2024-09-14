@@ -39,7 +39,7 @@ export function Community() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Tookover the GDSC WoW community and made it the largest student led community in India.
+            Tookover the GDSC WoW community and made it one of the largest student led community in India.
           </p>
           
           <div className="grid grid-cols-2 gap-4">
