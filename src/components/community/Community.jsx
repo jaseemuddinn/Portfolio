@@ -1,5 +1,5 @@
 import React from "react";
-import { Timeline } from "./Timeline"; // Make sure you correctly import the Timeline component
+import { Timeline } from "./Timeline"; 
 import img1 from '../../assets/community/ace1.webp'
 import img2 from '../../assets/community/ace2.webp'
 import img3 from '../../assets/community/ace3.webp'
@@ -22,7 +22,7 @@ export function Community() {
       title: "August 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 max-w-7xl">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8 max-w-7xl">
             Founded and Building THE ACE from scratch
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -38,7 +38,7 @@ export function Community() {
       title: "Early 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Tookover the GDSC WoW community and made it one of the largest student led community in India.
           </p>
           
@@ -56,25 +56,10 @@ export function Community() {
       title: "July 2023",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
             Became the GDSC Lead at my campus
           </p>
           <div className="mb-8 invisible">
-            {/* <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
-            </div> */}
           </div>
           <div className="grid grid-cols-2 gap-4 object-top">
             <Img img={img8} />
